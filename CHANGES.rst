@@ -4,6 +4,19 @@
 New Features
 ^^^^^^^^^^^^
 
+- ``photutils.isophote``
+    - Added an option `key_properties` to ``to_table()`` in the IsophoteList class. 
+      This allows to select which properties to be exported.'
+    - Added a new function ``get_names`` in the IsophoteList class.
+      It prints the IsophoteList key_properties that can be used with to_table()
+    - Added a ``test_to_table()`` test function in ``test_isophote.py``
+
+1.1.0 (unreleased)
+------------------
+
+New Features
+^^^^^^^^^^^^
+
 - ``photutils.aperture``
 
   - The ``PixelAperture.plot()`` method now returns a list of
